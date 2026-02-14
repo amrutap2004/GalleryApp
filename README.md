@@ -1,12 +1,90 @@
-# React + Vite
+# 📸 React Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple image gallery application built using **React**.
+It displays a collection of images in a clean grid layout and allows users to view them easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* Display images in a responsive grid
+* Clean and simple UI
+* Reusable React components
+* Easy to customize and extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **JavaScript (ES6)**
+* **HTML5**
+* **CSS3**
+
+---
+
+## 📂 Project Structure
+
+```
+gallery-app/
+│
+├── src/
+│   ├── components/
+│   │   └── Gallery.js
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+│
+├── public/
+│   └── index.html
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+   ```
+   git clone https://github.com/amrutap2004/GalleryApp.git
+   ```
+
+2. Navigate to the project folder
+
+   ```
+   cd GalleryApp
+   ```
+
+3. Install dependencies
+
+   ```
+   npm install
+   ```
+
+4. Start the application
+
+   ```
+   npm start
+   ```
+
+The app will run on **[http://localhost:3000/](http://localhost:3000/)** 🚀
+
+---
+
+## 🌱 Future Enhancements
+
+* Image preview modal
+* Category-based filtering
+* Lazy loading
+* Upload images feature
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit pull requests.
+
